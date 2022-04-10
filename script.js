@@ -20,7 +20,7 @@ function displayText() {
 
 // window.onload = displayPW()
 
-window.onload = setInterval(displayText,200)
+setInterval(displayText,200)
 
 function generateText(characterAmount) {
   let charCodes = LOWERCASE_CHAR_CODES.concat(
