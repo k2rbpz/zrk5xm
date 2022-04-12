@@ -1,5 +1,8 @@
 const titleDisplay = document.getElementById('titleDisplay')
 const bodyDisplay = document.getElementById('bodyDisplay')
+const link_1 = document.getElementById('link_1')
+const link_2 = document.getElementById('link_2')
+const link_3 = document.getElementById('link_3')
 
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
 const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
@@ -13,9 +16,17 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
 )
 
 function displayText() {
-  const text = generateText(12)
-  titleDisplay.innerText = text
-  bodyDisplay.innerText = text
+  const text_display = generateText(14)
+  const text_link_1 = generateText(7)
+  const text_link_2 = generateText(14)
+  const text_link_3 = generateText(4)
+
+  titleDisplay.innerText = text_display
+  bodyDisplay.innerText = text_display
+
+  link_1.innerText = text_link_1
+  link_2.innerText = text_link_2
+  link_3.innerText = text_link_3
 }
 
 // window.onload = displayPW()
