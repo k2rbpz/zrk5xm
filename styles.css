@@ -13,8 +13,9 @@ body {
   h1 {
 	  color:whitesmoke;
 	  font-weight: 100;
+	  letter-spacing: 8px;
 	  background-color: black;
-	box-shadow: 10px 0 0px 0px #EDC330, -10px 0 0px 0px #EDC330;
+	  box-shadow: 10px 0 0px 0px black, -10px 0 0px 0px black;
   }
 
   .link-tree {
