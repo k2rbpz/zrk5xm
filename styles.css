@@ -1,7 +1,7 @@
 body {
 	background-color: whitesmoke;
 	margin: 0;
-	color: black;
+	color: #5d5d5a;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -11,10 +11,10 @@ body {
   }
 
   h1 {
-	  color: black;
+	  color: whitesmoke;
 	  font-weight: 100;
-	  background-color: black;
-	  box-shadow: 10px 0 0px 0px black, -10px 0 0px 0px black;
+	  background-color: #5d5d5a;
+	  box-shadow: 10px 0 0px 0px #5d5d5a, -10px 0 0px 0px #5d5d5a;
 	  /* Full width bg */
 	  /* margin: 0 -9999rem;
   	  background: black; */
@@ -27,8 +27,8 @@ body {
 
   p>span:hover {
 	color:whitesmoke;
-	background-color: black;
-	box-shadow: 10px 0 0px 0px #EDC330, -10px 0 0px 0px #EDC330;
+	background-color: #5d5d5a;
+	box-shadow: 10px 0 0px 0px rgb(121, 121, 121), -10px 0 0px 0px rgb(121, 121, 121);
 	transition: 0.1s;
   }
 
