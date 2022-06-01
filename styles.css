@@ -1,7 +1,7 @@
 body {
-	background-color: whitesmoke;
+	background-color: #f8f9fa;
 	margin: 0;
-	color: #5d5d5a;
+	color: #6c757d;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -22,17 +22,18 @@ body {
 	text-align: center;
   }
 
-  p>span:hover {
-	color:whitesmoke;
-	background-color: #5d5d5a;
-	box-shadow: 10px 0 0px 0px #FF5E0E, -10px 0 0px 0px #FF5E0E;
-	transition: 0.1s;
-  }
-
   a {
-	color: whitesmoke;
+	color: #f8f9fa;
 	text-decoration: inherit;
 	box-shadow: 10px 0 0px 0px #FF5E0E;
 	text-decoration: underline;
 	text-decoration-color: #FF5E0E;
+  }
+
+  a:hover {
+	/* color:#6c757d; */
+	background-color: #6c757d;
+	/* text-decoration: none; */
+	box-shadow: 10px 0 0px 0px #FF5E0E, -10px 0 0px 0px #FF5E0E;
+	transition: 0.15s;
   }
